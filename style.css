@@ -1,0 +1,111 @@
+/*
+Referências: https://www.w3schools.com/css/css3_variables_javascript.asp
+https://www.w3schools.com/html/html_form_attributes.asp
+https://pt.stackoverflow.com/questions/306843/como-criar-um-input-color-bacana
+*/
+
+:root {
+
+  --first-color : black;
+
+  --second-color : blue;
+
+  --third-color: green;
+
+  --fourth-color: red;
+
+  --selected-color: var(--first-color);
+
+  --background-color: white;
+
+  --size : 39;
+  background-color: silver;
+}
+
+.color , .pixel , .current{
+  height: var(--size);
+  width: var(--size);
+  display: inline-block;
+}
+
+.color {
+  margin-right: 3px;
+  padding: 0;
+  cursor: pointer;
+  border: 0 none;
+  background-color: silver;
+  margin:auto;
+
+}
+
+.color:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.pixel {
+  margin : -2px;
+  border: solid 1px black;
+  background-color: var(--background-color);
+}
+
+.current {
+  background-color: var(--selected-color);
+  margin-left : 5px;
+  border: 2px solid;
+}
+
+#pixel-board {
+  margin-left: 2px;
+}
+
+#color-palette {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#clear-board {
+  text-align: center;
+  margin-right:15px;
+}
+
+#board-size {
+  width:40px;
+}
+
+#title {
+  text-align: center;
+  margin : -8px;
+  background-color: dodgerblue ;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+#color-container{
+  margin-bottom: 20px;
+}
+
+#button-container {
+  margin-bottom: 10px;
+  height:30px;
+}
+
+#board-size {
+  margin-right: 3px;
+}
+
+#set {
+  margin-top: 10px;
+  margin-right: 2px;
+  margin-left: 5px;
+}
+
+#label1 {
+  margin-left: 20px;
+}
+
