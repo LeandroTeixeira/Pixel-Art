@@ -1,5 +1,5 @@
 # Pixel-Art [(Link do Projeto)](https://leandroteixeira.github.io/Pixel-Art)
-![Ilustrative image](Image.png)
+![Ilustrative image](print.png)
 
 ## Descrição
 Projeto de pixel art desenvolvido durante o módulo de Fundamentos do curso da Trybe.
