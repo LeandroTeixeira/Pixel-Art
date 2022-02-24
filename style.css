@@ -68,7 +68,9 @@ https://pt.stackoverflow.com/questions/306843/como-criar-um-input-color-bacana
 #clear-board {
   text-align: center;
   margin-right:15px;
-}
+  margin-top:-10px;
+
+  }
 
 #board-size {
   width:40px;
@@ -76,8 +78,9 @@ https://pt.stackoverflow.com/questions/306843/como-criar-um-input-color-bacana
 
 #title {
   text-align: center;
-  margin : -8px;
   background-color: dodgerblue ;
+  margin-bottom: 1%;
+
 }
 
 .flex-container {
